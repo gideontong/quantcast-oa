@@ -1,0 +1,23 @@
+[project]
+name = "quantcast-cookie"
+version = "0.1.0"
+description = "Quantcast Cookie Parser"
+authors = [
+    {name = "Gideon Tong",email = "gideon@gideontong.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.8"
+
